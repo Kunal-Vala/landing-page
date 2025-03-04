@@ -4,6 +4,8 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Roboto;
+
     box-sizing: border-box;
 }
 .header{
@@ -12,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
     
 }
 
@@ -36,4 +39,54 @@ header{
 
 .links li{
     list-style-type: none;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 500px; */
+    background-color: #1f2937;
+    padding: 9vh 0;
+}
+
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10vh;
+}
+
+.main_text{
+    font-size: 48px;
+    font-weight: 900;
+    width: 60%;
+    color: #f9faf8;
+}
+
+.placeholder{
+    border: 80px solid #6d747d;
+    background-color: #6d747d;
+    margin: 20px ;
+    margin-right: 20vh;
+    padding: 5px 5px;
+    color: #e5e7eb;
+}
+
+.sign_up{
+    color: #f9faf8;
+    font-size: 18px;
+    background-color: #3882f6;
+    cursor: pointer;
+    padding: 8px 19px;
+    border-radius: 8px;
+    border: 1px solid #3882f6;
+}
+
+.secondry_text{
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    width: 47%;
+    margin-right: 74px;
 }
