@@ -100,9 +100,6 @@ header{
 
 .third-section{
     background-color: #f9faf8;
-    
-
-
 }
 
 .random_text{
@@ -147,8 +144,47 @@ header{
 
 .author{
     box-sizing: border-box;
-    
+
     padding-left: 90vh ;
     font-size: 30px;
     font-weight: 900;
+}
+
+.fifth-section{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.text5{
+    padding: 50px 131px;
+    border: 5px solid #3882f6;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    gap: 25vh;
+    width: 75%;
+}
+
+.sign_up1{
+    color: #f9faf8;
+    font-size: 18px;
+    background-color: #3882f6;
+    cursor: pointer;
+    padding: 8px 19px;
+    border-radius: 8px;
+    border: 3px solid #f9faf8;
+}
+
+div .text1{
+    color: #f9faf8;
+    font-size: 30px;
+
+    
+}
+
+.text2{
+    font-size: 15px;
+    
 }
